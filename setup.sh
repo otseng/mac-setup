@@ -75,11 +75,13 @@ install-apps() {
     brew install homebrew/cask/brew-cask
     
     brew install cask --appdir="/Applications" 1password
+    brew install cask --appdir="/Applications" cyberduck
     brew install cask --appdir="/Applications" dropbox
     brew install cask --appdir="/Applications" firefox
     brew install cask --appdir="/Applications" github
     brew install cask --appdir="/Applications" google-chrome
     brew install cask --appdir="/Applications" iterm2
+    brew install cask --appdir="/Applications" kindle
     brew install cask --appdir="/Applications" macs-fan-control
     brew install cask --appdir="/Applications" postman
     brew install cask --appdir="/Applications" pycharm-ce
