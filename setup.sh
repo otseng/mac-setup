@@ -65,6 +65,7 @@ install-packages() {
 	  mysql
 	  php
 	  python3
+      telnet
 	)
 
 	echo "Installing packages:"
@@ -75,7 +76,9 @@ install-apps() {
     brew install homebrew/cask/brew-cask
     
     brew install cask --appdir="/Applications" 1password
+    brew install cask --appdir="/Applications" audacity
     brew install cask --appdir="/Applications" cyberduck
+    brew install cask --appdir="/Applications" db-browser-for-sqlite
     brew install cask --appdir="/Applications" dropbox
     brew install cask --appdir="/Applications" firefox
     brew install cask --appdir="/Applications" github
@@ -85,6 +88,7 @@ install-apps() {
     brew install cask --appdir="/Applications" macs-fan-control
     brew install cask --appdir="/Applications" postman
     brew install cask --appdir="/Applications" pycharm-ce
+    brew install cask --appdir="/Applications" shotcut
     brew install cask --appdir="/Applications" slack
     brew install cask --appdir="/Applications" steam
     brew install cask --appdir="/Applications" skype
