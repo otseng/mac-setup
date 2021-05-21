@@ -58,18 +58,19 @@ config() {
 }
 
 install-packages() {
-	PACKAGES=(
-	  docker
-	  git
-	  httpd
-	  mysql
-	  php
-	  python3
+    PACKAGES=(
+      docker
+      ffmpeg
+      git
+      httpd
+      mysql
+      php
+      python3
       telnet
-	)
+    )
 
-	echo "Installing packages:"
-	brew install ${PACKAGES[@]}
+    echo "Installing packages:"
+    brew install ${PACKAGES[@]}
 }
 
 install-apps() {
