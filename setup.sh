@@ -77,11 +77,13 @@ install-apps() {
     brew install homebrew/cask/brew-cask
     
     brew install cask --appdir="/Applications" 1password
+    brew install cask --appdir="/Applications" android-studio
     brew install cask --appdir="/Applications" audacity
     brew install cask --appdir="/Applications" cyberduck
     brew install cask --appdir="/Applications" db-browser-for-sqlite
     brew install cask --appdir="/Applications" dropbox
     brew install cask --appdir="/Applications" firefox
+    brew install cask --appdir="/Applications" gimp
     brew install cask --appdir="/Applications" github
     brew install cask --appdir="/Applications" google-chrome
     brew install cask --appdir="/Applications" iterm2
